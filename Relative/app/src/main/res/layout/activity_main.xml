@@ -1,0 +1,212 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="@color/black"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="4dp"
+        android:background="@drawable/rounded_button" />
+
+    <!-- Foto Profil -->
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profilenashwa"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- Nama -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama: Nashwa Putri Ayesha"
+        android:textSize="18sp"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <!-- NIM -->
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM: E41240974"
+        android:textSize="16sp"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <!-- Prodi -->
+    <TextView
+        android:id="@+id/prodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prodi: Teknik Informatika"
+        android:textSize="16sp"
+        android:layout_below="@id/nim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <!-- Jurusan -->
+    <TextView
+        android:id="@+id/jurusan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jurusan: Tekniknologi Informasi"
+        android:textSize="16sp"
+        android:layout_below="@id/prodi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <!-- Jadwal MK -->
+    <TableLayout
+        android:id="@+id/jadwal_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jurusan"
+        android:layout_marginTop="15dp"
+        android:stretchColumns="0,1,2">
+
+        <!-- Header -->
+        <TableRow>
+            <TextView
+                android:text="Hari"
+                android:background="@drawable/cell_border"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="Waktu"
+                android:background="@drawable/cell_border"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="Mata Kuliah"
+                android:background="@drawable/cell_border"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <!-- Baris 1 -->
+        <TableRow>
+            <TextView
+                android:text="Senin"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="08:00"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="Pemrograman Mobile"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <!-- Baris 2 -->
+        <TableRow>
+            <TextView
+                android:text="Selasa"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="10:00"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="Basis Data"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+        </TableRow>
+
+<!--        Baris 3-->
+        <TableRow>
+            <TextView
+                android:text="Rabu"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="10:00"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="Workshop Mobile Application"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+        </TableRow>
+
+<!--        Baris 4-->
+        <TableRow>
+            <TextView
+                android:text="Kamis"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="07.00"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="Matematika Diskrit"
+                android:background="@drawable/cell_border"
+                android:padding="8dp"
+                android:textSize="15sp" />
+        </TableRow>
+    </TableLayout>
+
+
+
+    <!-- Continue Button -->
+
+</RelativeLayout>

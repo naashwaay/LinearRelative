@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna dasar -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Ungu -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+
+    <!-- Biru -->
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_700">#1976D2</color>
+
+    <!-- Merah -->
+    <color name="red_200">#EF9A9A</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_700">#D32F2F</color>
+
+    <!-- Hijau -->
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_700">#388E3C</color>
+
+    <!-- Abu-abu -->
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_700">#616161</color>
+
+    <!-- Aksen -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="yellow_500">#FFEB3B</color>
+    <color name="orange_500">#FF9800</color>
+</resources>
